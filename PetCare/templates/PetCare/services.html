@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - PawCare</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff7f3;
+            color: #333;
+        }
+
+        nav {
+            background: #8b3a4a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 50px auto;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title h1 {
+            color: #8b3a4a;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            font-size: 17px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .card .icon {
+            font-size: 45px;
+        }
+
+        .card h2 {
+            color: #8b3a4a;
+            margin: 15px 0;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            text-align: center;
+            background: #8b3a4a;
+            color: white;
+        }
+
+        @media (max-width: 800px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/services/">Services</a>
+        <a href="/tips/">Pet Tips</a>
+        <a href="/contact/">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="title">
+            <h1>🐾 Our Pet Care Services</h1>
+            <p>
+                Learn about the basic services that help keep
+                your pets healthy, clean, safe, and happy.
+            </p>
+        </div>
+
+        <div class="services">
+
+            <div class="card">
+                <div class="icon">🛁</div>
+                <h2>Pet Grooming</h2>
+                <p>
+                    Regular bathing, brushing, nail care,
+                    and grooming help keep pets clean and comfortable.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🍖</div>
+                <h2>Pet Nutrition</h2>
+                <p>
+                    Proper nutrition and fresh water are important
+                    for maintaining your pet's overall health.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🩺</div>
+                <h2>Health Care</h2>
+                <p>
+                    Regular veterinary checkups and preventive care
+                    can help identify health problems early.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎾</div>
+                <h2>Exercise</h2>
+                <p>
+                    Playtime and appropriate exercise help pets
+                    stay active and support their physical health.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏠</div>
+                <h2>Safe Environment</h2>
+                <p>
+                    A clean and safe environment gives pets
+                    a comfortable place to rest, play, and live.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">❤️</div>
+                <h2>Pet Wellness</h2>
+                <p>
+                    Giving pets attention, care, patience,
+                    and affection helps support their well-being.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 PawCare | Caring for Pets with Love 🐾
+    </footer>
+
+</body>
+</html>
